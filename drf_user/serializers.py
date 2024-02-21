@@ -40,7 +40,7 @@ class UserSerializer(serializers.ModelSerializer):
             return value
         else:
             raise serializers.ValidationError(
-                "The email must be " "pre-validated via OTP."
+                "The email must be pre-validated via OTP."
             )
 
     def validate_mobile(self, value: str) -> str:
