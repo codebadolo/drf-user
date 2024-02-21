@@ -30,7 +30,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     mobile: Mobile Number of the user
     name: Name of the user. Replaces last_name & first_name
     update_date: DateTime instance when the user was updated
-
+     
     Author: Himanshu Shankar (https://himanshus.com)
     """
 
