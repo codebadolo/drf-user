@@ -14,7 +14,7 @@ class UserManager(BaseUserManager):
     Source: Can't find link but the following solution is inspired
     from a solution provided on internet.
     """
-
+    
     use_in_migrations = True
 
     def _create_user(
